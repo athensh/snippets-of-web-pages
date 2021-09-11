@@ -1,0 +1,29 @@
+* {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+h1 {
+    color: yellow;
+    font-size: 40px;
+    margin: 30px 20px 50px 20px;
+    padding: 30px 40px;
+    background-color: rgba(66, 62, 62, 0.24);
+    text-shadow: 2px 2px 3px black;    
+}
+
+#plines {
+    white-space: pre-line;
+    line-height: 1.5em;
+}
+
+#plines::first-letter {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;    
+    font-style: oblique;
+    font-weight: bold;
+    
+}
+#plines:hover {
+    background-color:rgba(0,0,0,0.75);
+    margin: 3em;
+    padding: 1em;
+    box-shadow: 2px 2px 20px black;
+    color: yellow;
+}

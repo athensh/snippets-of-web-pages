@@ -1,0 +1,11 @@
+ul > li{ 
+    font-family: sans-serif;
+    font-weight: bold;
+}
+a:visited {color: blue;}
+a:active {color: green;}
+
+a:hover {
+    text-decoration: none;
+    color: red;
+} 

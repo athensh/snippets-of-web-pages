@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Τετράγωνα αριθμών</title>
+    <style>
+        body { font-family: sans-serif; }
+    </style>
+</head>
+
+<body>
+    <p>Τα τετράγωνα των αριθμών από 1 μέχρι
+    <input type="text" id="number" name="user_number"></p>
+    <button onclick="calculate()">Υπολογισμός</button>
+    <p id="squares"></p>
+    <script>
+        const theSquares = document.querySelector('#squares');
+        function calculate() {
+            let range = document.querySelector('#number').value;
+            for(let i=1;i<=Number(range);i++) {
+                theSquares.innerHTML+="Το τετράγωνο του " +i+ " είναι " + 
+                squares(i) +"<br>";
+            }
+        }
+
+        function squares(x) {
+            return x*x;
+        }
+
+    </script>
+</body>
+</html>

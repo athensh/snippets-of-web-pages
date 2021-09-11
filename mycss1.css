@@ -1,0 +1,17 @@
+* { font-family: fantasy; }
+
+div {
+    margin: 1em;
+    border: 1px solid black;
+    background: lavender;
+}
+
+p {
+    background: red;
+    margin: 5em;
+}
+
+.separator {
+    padding: 1px;
+    color: red;
+}

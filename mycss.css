@@ -1,0 +1,14 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    background-color: yellow;
+    border: rgb(245, 31, 31) solid 2px;    
+    margin: 10px;    
+    padding: 10px 10px;
+}
+
+h1::after {
+    content: "WELP";
+    color: fuchsia;
+    background-color: pink;
+}
